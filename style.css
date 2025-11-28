@@ -47,11 +47,14 @@ section{
     margin: 5rem auto;
     margin-left: 500px;
 }
+.instant{
+    padding: 0;
+}
 .immg{
     width: 260px;
 }
 .goku h1{
-    color: bisque;
+    color: rgb(255, 0, 0);
     font-size: 70px;
 }
 .goku h2{
