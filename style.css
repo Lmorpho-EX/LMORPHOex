@@ -10,14 +10,23 @@ img{
     width: 75px;
 }
 header{
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow:  5px 3px 10px bisque;
+    border-radius: 200px;
+    width: 80%; /* Or any specific width */
+    margin: 0 auto;  /* Centers the block-level element horizontally */
+
 }
 ul{
     display: flex;
     gap: 40px;
     margin: 0 350px;
+    width: 80%; /* Or any specific width */
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 .active{
     display: flex;
@@ -44,8 +53,9 @@ ul li a:hover{
 section{
     display: flex;
     align-items: center;
-    margin: 5rem auto;
-    margin-left: 500px;
+    margin:auto;
+    padding: 20px;
+    max-width: 650px;
 }
 .immg{
     width: 260px;
